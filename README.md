@@ -1,2 +1,3 @@
 # Multiple-signal-timings-in-VISSIM-COM
 Analyzing the performance of traffic under different signal timings is necessary, but there is no default option available to run the simulation multiple times with different phase and signal timings in VISSIM. That is why, initiating the code stepwise with various data set of signal timing can help getting multiple runs automatically. 
+As the COM function is active in the simulation model, this code will run in the bg without interupting other performances of the simulation. It is based on timing and 4-legged intersecion only, but can be changed accordingly with appropiate dataset and proper naming of the links.
